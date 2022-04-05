@@ -1,0 +1,19 @@
+.Header {
+    min-height: 50vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 20px rgba(255, 255, 255, .5);
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 70px;
+    font-family: 'Rubik Microbe', cursive;
+    color: rgb(0, 255, 255)
+}
+.Header h1 {
+    margin: 0;
+}
