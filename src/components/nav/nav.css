@@ -31,7 +31,4 @@
   .Nav a:hover {
     background-color: rgba(255, 255, 255, .1);
   }
-
-  .active {
-    border-bottom: 3px solid gray;
-  }
+ 

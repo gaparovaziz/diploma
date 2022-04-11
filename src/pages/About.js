@@ -1,8 +1,13 @@
 function About() {
     return ( 
         <main>
-            <div><h2>hello world</h2></div>
-            lormeojasigjhagh hogohgviog houighaghohag; huopghopahguhgu huphgpuhuahgu hguoh haughu huhguhgaup hgughuahguhg
+            <h2>About this module</h2>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quae vel, distinctio libero expedita incidunt quasi magnam nostrum excepturi dignissimos necessitatibus ad modi veniam. Beatae cupiditate officiis aliquam reiciendis ipsum.
+            </p>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quae vel, distinctio libero expedita incidunt quasi magnam nostrum excepturi dignissimos necessitatibus ad modi veniam. Beatae cupiditate officiis aliquam reiciendis ipsum.
+            </p>
         </main>
      );
 }

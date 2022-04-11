@@ -6,11 +6,11 @@ function Nav() {
         <nav className="Nav">
         <head><link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet"/></head>
             <Logo/>
+            
             <ul>
-                <NavItem url="/" active>Home</NavItem>
-                <NavItem url="/">Categories</NavItem>
-                <NavItem url="/">About</NavItem>
-                
+                <NavItem url="/">Home</NavItem>
+                <NavItem url="/products">Products</NavItem>
+                <NavItem url="/contacts">Contacts</NavItem>
             </ul>
         </nav>
      );
