@@ -7,7 +7,7 @@ function Footer() {
             <div>
                 <div>INSTAGRAM</div>
                 <div>TELEGRAM</div>
-                <div>WK <img src={img}></img></div>
+                <div>WK <img src={img} alt="home"/></div>
             </div>
         </footer>
      );
