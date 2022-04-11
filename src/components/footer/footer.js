@@ -1,5 +1,5 @@
 import "./footer.css"
-import "../../assets/home.svg"
+import img from  "../../assets/home.svg"
 function Footer() {
     return ( 
         <footer className="Footer">
@@ -7,7 +7,7 @@ function Footer() {
             <div>
                 <div>INSTAGRAM</div>
                 <div>TELEGRAM</div>
-                <div>WK <img src="../../assets/home.svg"></img></div>
+                <div>WK <img src={img}></img></div>
             </div>
         </footer>
      );
