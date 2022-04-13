@@ -7,10 +7,14 @@
     padding: .1rem 1rem;
     font-size: 30px;  
     font-family: 'Times New Roman', Times, serif;
+
+    position: sticky;
+    top: 0;
   }
   .Nav div {
-    
-    font-family: 'Rubik Wet Paint', cursive;
+    font-family: 'Square Peg', cursive;
+    font-size: 2.6rem;
+    font-weight: 600;
   }
   .Nav ul {
     list-style: none;

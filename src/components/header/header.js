@@ -7,8 +7,8 @@ function Header() {
     return ( 
         <header className="Header" style={style}>
             <head><link href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap" rel="stylesheet"/></head>
-            <h1>accessories style</h1>
-            <p>This is and internet shop</p>
+            <h1>Find your style</h1>
+            <p>Online accessories store</p>
         </header>
      );
 }

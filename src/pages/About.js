@@ -1,7 +1,7 @@
 function About() {
     return ( 
-        <main>
-            <h2>About this module</h2>
+        <main className="mainPage">
+            <h1>About our accessories</h1>
             <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quae vel, distinctio libero expedita incidunt quasi magnam nostrum excepturi dignissimos necessitatibus ad modi veniam. Beatae cupiditate officiis aliquam reiciendis ipsum.
             </p>
