@@ -1,6 +1,5 @@
 import "./header.css"
 import headerImage from "../../assets/back_fone.webp";
-import Nav from "../nav/nav";
 function Header() {
     const style = {
         backgroundImage: `url(${headerImage})`

@@ -14,7 +14,7 @@ function NavScroll() {
     return ( 
         <a href="/">
             <div>
-                <img src={img} style={style}></img>
+                <img src={img} style={style} alt='/'></img>
             </div>
         </a>
      );
