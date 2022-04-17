@@ -1,0 +1,72 @@
+.mainPage {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: .5rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px rgb(88, 87, 87);
+}
+
+.leftSide {
+    width: 65%;
+}
+.leftSide img {
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.rightSide {
+    width: 32%;
+    border-left: 1px dashed gray;
+    padding-left: 1rem;
+}
+.rightSide .stick {
+    position: sticky;
+    top: 2rem;
+}
+.rightSide .inputGoogle {
+    padding: 5px;
+    border-color: gray;
+}
+.rightSide button {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSide .search {
+    width: 1.6rem;
+    background-color: rgba(111, 218, 173, 0.884);
+    /* padding: .2rem; */
+}
+.rightSide .socialNet {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+.rightSide .socialNet img{
+    width: 2.7rem;
+}
+.rightSide img:nth-child(3) {
+    width: 3.2rem;
+}
+.rightSide img:nth-child(4) {
+    width: 3rem;
+}
+
+.rightSide .chapterNew img{
+    width: 50px;
+    margin-right: .8rem;
+}
+.rightSide .chapterNew .brave{
+    width: 65px;
+}
+.rightSide .chapterNew div{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+}

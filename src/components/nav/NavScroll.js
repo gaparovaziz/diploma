@@ -1,17 +1,22 @@
-import Logo from "../ui/logo";
-import "./nav.css"
-import NavItem from "./NavItem/NavItem";
+import img from "../../assets/arrowUp.svg"
 function NavScroll() {
+    const style = {
+        position: 'fixed',
+        top: '2rem',
+        right: '3rem',
+        backgroundColor: 'red',
+        borderRadius: '100%',
+        padding: '.7rem',
+        color: 'red',
+        boxShadow: '0 0 6px black'
+        
+    }
     return ( 
-        <nav className="Nav">
-        <head><link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet"/></head>
-            <Logo/>
-            
-            <ul>
-                <NavItem url="/">Home</NavItem>
-                <NavItem url="/about">About</NavItem>
-            </ul>
-        </nav>
+        <a href="/">
+            <div>
+                <img src={img} style={style}></img>
+            </div>
+        </a>
      );
 }
 

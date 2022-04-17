@@ -12,16 +12,25 @@ import { Route, Routes } from "react-router-dom";
 import Contacts from "./pages/Contact";
 
 import React from 'react'
+import "./index.css"
 
 function App() {
-  const [stateNav, setNavState] = React.useState(false)
-  const navChange = () => {
-    setNavState(!stateNav)
-  }
+  const [navBar, setNavBar] = React.useState(false)
+
+    const changeNavBar = () => {
+        if (window.scrollY >= 470) {
+            setNavBar(true)
+        }else {
+            setNavBar(false)
+        }
+    }
+    
+    window.addEventListener('scroll', changeNavBar)
   return (
-    <div className="App" onScroll={navChange}>
-      {stateNav ? <NavScroll/> : <Nav/>}
+    <div className="App">
+      {navBar ? <NavScroll/> : <Nav/>}
       <Header/>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

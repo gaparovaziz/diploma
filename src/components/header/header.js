@@ -1,5 +1,6 @@
 import "./header.css"
 import headerImage from "../../assets/back_fone.webp";
+import Nav from "../nav/nav";
 function Header() {
     const style = {
         backgroundImage: `url(${headerImage})`
@@ -7,8 +8,10 @@ function Header() {
     return ( 
         <header className="Header" style={style}>
             <head><link href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap" rel="stylesheet"/></head>
-            <h1>Find your style</h1>
-            <p>Online accessories store</p>
+            <div className="text-center">
+                <h1>Find your style</h1>
+                <p>Online accessories store</p>
+            </div>
         </header>
      );
 }

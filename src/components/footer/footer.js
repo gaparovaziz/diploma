@@ -1,13 +1,15 @@
 import "./footer.css"
-import img from  "../../assets/home.svg"
+import insta from "../../assets/instagram.png"
+import tele from "../../assets/telegram.png"
+import wk from "../../assets/wk.png"
 function Footer() {
     return ( 
         <footer className="Footer">
-            <div>accessories style 2022</div>
+            <div><a href="/">accessories style 2022</a></div>
             <div>
-                <div>INSTAGRAM</div>
-                <div>TELEGRAM</div>
-                <div>WK <img src={img} alt="home"/></div>
+                <div><img src={insta} alt="home"/></div>
+                <div><img src={tele} className="tele" alt="home"/></div>
+                <div><img src={wk} className="wk" alt="home"/> </div>
             </div>
         </footer>
      );
