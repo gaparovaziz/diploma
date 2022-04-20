@@ -8,7 +8,8 @@ function NavScroll() {
         borderRadius: '100%',
         padding: '.7rem',
         color: 'red',
-        boxShadow: '0 0 6px black'
+        boxShadow: '0 0 6px black',
+        width: '30px'
         
     }
     return ( 

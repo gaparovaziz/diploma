@@ -9,7 +9,7 @@ import Products from "./pages/Products";
 import NavScroll from "./components/nav/NavScroll";
 
 import { Route, Routes } from "react-router-dom";
-import Contacts from "./pages/Contact";
+import SignIn from "./pages/Sign/SignIn";
 
 import React from 'react'
 import "./index.css"
@@ -28,14 +28,15 @@ function App() {
     window.addEventListener('scroll', changeNavBar)
   return (
     <div className="App">
-      {navBar ? <NavScroll/> : <Nav/>}
-      <Header/>
+      {/* {navBar ? <NavScroll/> : <Nav/>} */}
+      <Nav/>
+      {/* <Header/> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/contacts" element={<Contacts/>}/>
+        <Route path="/signIn" element={<SignIn/>}/>
       </Routes>
       <Footer/>
 

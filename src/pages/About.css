@@ -1,4 +1,4 @@
-.mainPage {
+.aboutPage {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -12,7 +12,6 @@
     width: 65%;
 }
 .leftSide img {
-    position: relative;
     margin: 0 auto;
 }
 
@@ -24,7 +23,7 @@
 }
 .rightSide .stick {
     position: sticky;
-    top: 2rem;
+    top: 4.5rem;
 }
 .rightSide .inputGoogle {
     padding: 5px;

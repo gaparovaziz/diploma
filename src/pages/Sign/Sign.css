@@ -1,0 +1,48 @@
+.signIn {
+    box-shadow: 0 0 6px gray;
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+    height: 36vw;
+}
+
+.mainPage {
+    font-family: 'Raleway', sans-serif
+}
+.signUp {
+    box-shadow: 0 0 6px gray;
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+
+}
+
+.faceBook {
+    width: 43%;
+    padding: .8rem 11px;
+    background-color: blue;
+    color: azure;
+    border-radius: 7px;
+    font-size: 1.2rem;
+}
+.google {
+    width: 43%;
+    padding: .8rem 11px;
+    background-color: azure;
+    border-radius: 7px;
+    font-size: 1.2rem;
+}
+.btn-signIn, .btn-register {
+    padding: .6rem;
+    font-size: 1.2rem;
+}
+.mainPage input {
+    height: 2rem;
+}
+h1 {
+    margin: 1rem;
+}
+.footer {
+    margin-top: 10px;
+    color: darkgray
+}

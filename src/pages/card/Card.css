@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card { 
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 0 0 5px gray;
+}
+.card p, h4, .btns {
+    padding: 7px;
+}
+.btns button {
+    padding: 7px 20px;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    box-shadow: 0 0 3px rgb(127, 134, 136);
+}
+.btns .buy {
+    background-color: beige;
+}
+.btns .save {
+    background-color: rgb(245, 236, 224);
+}
