@@ -1,5 +1,4 @@
 import Nav from "./components/nav/nav";
-import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 
 import Home from "./pages/Home";
@@ -28,9 +27,7 @@ function App() {
     window.addEventListener('scroll', changeNavBar)
   return (
     <div className="App">
-      {/* {navBar ? <NavScroll/> : <Nav/>} */}
-      <Nav/>
-      {/* <Header/> */}
+      {navBar ? <NavScroll/> : <Nav/>}
 
       <Routes>
         <Route path="/" element={<Home />} />

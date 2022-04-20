@@ -8,8 +8,8 @@ function SignIn() {
             <div className="signIn text-center d-flex flex-column justify-between">
                 <h1>Sign In With</h1>
                 <div className="d-flex justify-around">
-                    <button className="faceBook"><img src=""/>FaceBook</button>
-                    <button className="google"><img src=""/>Google</button>
+                    <button className="faceBook">FaceBook</button>
+                    <button className="google">Google</button>
                 </div>
                 <p>USERNAME:</p>
                 <input type='text'/>
