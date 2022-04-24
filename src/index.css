@@ -14,7 +14,20 @@ code {
 
 .mainPage {
   box-shadow: 0 0 10px black;
-  margin: 10px;
+  margin: 5px;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 6px;
+  font-size: 20px;
+}
+.homePage img{
+  width: 30rem;
+  float: left;
+  margin-right: 1rem;
+}
+.homePage img:nth-of-type(2) {
+  float: right;
+  margin-left: 1rem;
+}
+.homePage p {
+  margin: 1rem 0;
 }

@@ -82,8 +82,8 @@ function About() {
                 <div className="stick">
                     <div className="d-flex">
                         <input type='text' placeholder='search in google' className="inputGoogle"/>
-                        <button><img src={search} className='search' alt='/'/></button>
-                    </div>
+                        <button className="search"><img src={search} className='search' alt='/'/></button>
+                    </div><br/>
                     <p>WE ARE IN SOCIAL NETWORKS:</p>
                     <div className="socialNet">
                         <img src={facebook} alt="facebook"/>
@@ -91,7 +91,7 @@ function About() {
                         <img src={youtube} alt="youtube"/>
                         <img src={instagram} alt="instagram"/>
                         <img src={wk} alt="wk"/>
-                    </div>
+                    </div><br/>
 
                     <p>Popular today:</p>
 

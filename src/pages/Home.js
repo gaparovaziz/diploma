@@ -1,12 +1,21 @@
 import Header from "../components/header/header";
+import one from "../assets/homePage/1.jpg"
+import two from "../assets/homePage/2.jpg"
+import three from "../assets/homePage/3.jpg"
+import four from "../assets/homePage/4.jpg"
+import five from "../assets/homePage/5.jpg"
+import six from "../assets/homePage/6.jpg"
+import seven from "../assets/homePage/7.jpg"
 
 function Home() {
     return ( 
         <main className="d-flex flex-column">
             <Header fone='/img_coverimage/1.webp' tColor='rgb(0, 255, 255)'/>
-            <div className="mainPage">
+            <div className="mainPage homePage">
                 <h1>What Is Accessorizing?</h1>
                 <p>Accessorizing is a way to spice up your outfits by incorporating smaller pieces, like jewelry and shoes, into your look. Fashion accessories are pieces that, although they can serve practical functions, are chosen to complement the rest of an outfit—the finishing touches. Accessorizing allows you to add new energy to the old standbys in your capsule wardrobe.</p>
+
+                <img src={one} alt="/"/>
 
                 <h1>Accessories in fashion : An overview of the 30 most important accessories</h1>
                 <p className="data">Last Updated on January 10, 2022 by Sarina</p>
@@ -18,6 +27,9 @@ function Home() {
 
                 <p>Famous fashion designer Oscar De la Renta said: “A woman makes an outfit her own with accessories”. The importance of accessories cannot be better summed up than thus but this is true for men and women. Accessories aim to enhance the effect of clothes you wear- whether they succeed or not depends on your sense of style, the trend in fashion at that particular time and the context.</p>
 
+                <br/><br/>
+                <img src={two} alt="/"/>
+
                 <h1>6 Types of Fashion Accessories</h1>
                 <h3>Accessories fall into a few basic categories.</h3>
 
@@ -27,15 +39,32 @@ function Home() {
                 <b>Handbags: Different bags—from totes to clutches—are appropriate for different occasions. If you have handbags in varied styles and colors, you’ll always have a unique accessory.</b>
                 <i>Belts: Belts aren’t just for function; they’re for fashion, too. Whether you choose a narrow or wide belt, a simple belt or one with embellishments, defining your waistline with a belt is one of the easiest ways to make an outfit look more polished.</i>
                 <p>Winter accessories: Scarves, hats, and gloves keep you warm, but they’re also an opportunity to add color and patterns to your look, especially if your outerwear is more neutral.</p>
+                
+                <img src={four} alt="/"/>
+                
                 <h3>How to Accessorize: 4 Tips for Choosing Accessories</h3>
                 <p>Accessorizing is all about balance, and the right accessories can make even the most basic outfit look glam.</p>
+
+                
 
                 <p>Choose a signature accessory. If you feel overwhelmed by accessory options, choose just one statement piece that makes you feel great and that you can wear with multiple outfits. When you’re ready to add more accessories, create balance by choosing one piece to dominate your look in terms of size or color, then layer on more subtle accessories.</p>
                 <p>Think about colors and patterns. Accessories are a great way to add a pop of color to a simple outfit. Bright colors and animal prints can be difficult to work into your wardrobe, but vibrant, fun accessories like shoes, a belt, or a scarf can elevate your look.</p>
                 <p>Use accessories to transform an outfit. Accessories are an easy way to take an outfit from the office to dinner with friends. A classic little black dress looks work-appropriate when paired with a blazer and flats. Ditch the blazer, swap the flats for stilettos, and add a pair of statement earrings or a cocktail ring, and you're ready for a night out. Have a few go-to accessories in mind for those moments when you’re not able to do a full outfit change.</p>
                 <p>Your accessories don’t need to match. Matching accessories can read more conservative than fashion-forward. If you’re not sure which colors go together, start by adding one colorful accessory to a base of neutrals. Then, use to use the color wheel to get new ideas for bold color combinations.</p>
+
+                <br/>
+
                 <h2>Want to Learn More About Unleashing Your Inner Fashionista?</h2>
                 <p>Get a MasterClass Annual Membership and let Tan France be your very own style spirit guide. Queer Eye’s fashion guru spills everything he knows about building a capsule collection, finding a signature look, understanding proportions, and more (including why it’s important to wear underwear to bed)—all in a soothing British accent, no less.</p>
+                
+                <div className="d-flex">
+                    <img src={four} alt="/"/>
+                    <div>
+                    <p>Get a MasterClass Annual Membership and let Tan France be your very own style spirit guide. Queer capsule collection, finding a signature look, understanding proportions, and more <b>(including why it’s important to wear underwear to bed)</b>—all in a soothing British accent, no less.</p>
+                    <p>Get a <i> MasterClass Annual Membership</i> and let Tan France be your very own style spirit guide. <b><i>Queer Eye’s fashion guru</i></b> spills everything he knows about building a capsule collection, finding a signature look, understanding proportions, and more <b>(It’s important to wear underwear to bed)</b>—all in a soothing British accent, no less.</p>
+                    </div>
+                    <img src={five} alt="/"/>
+                </div>
             </div>
             
         </main>

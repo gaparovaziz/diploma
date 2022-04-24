@@ -1,9 +1,21 @@
+.signPage {
+    background-image: url(../../assets/signPageFone.jpg);
+    background-position: center;
+
+    color: azure
+}
+
+
 .signIn {
     box-shadow: 0 0 6px gray;
     padding: 15px;
     border-radius: 15px;
     width: 40%;
     height: 36vw;
+
+    position: relative;
+    z-index: 2;
+    background: rgba(161, 159, 154, 0.421);
 }
 
 .mainPage {
@@ -15,6 +27,9 @@
     border-radius: 15px;
     width: 40%;
 
+    position: relative;
+    z-index: 2;
+    background: rgba(161, 159, 154, 0.421);
 }
 
 .faceBook {
@@ -34,15 +49,23 @@
 }
 .btn-signIn, .btn-register {
     padding: .6rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    background-color: rgb(238, 163, 66);
+    box-shadow: 0 0 10px orangered;
+    color: rgb(238, 255, 0)
 }
 .mainPage input {
     height: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    width: 80%;
+    margin: 0 auto;
 }
 h1 {
     margin: 1rem;
 }
 .footer {
     margin-top: 10px;
-    color: darkgray
+    color: rgb(202, 196, 196)
 }

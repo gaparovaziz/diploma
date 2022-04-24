@@ -2,6 +2,11 @@ import Logo from "../ui/logo";
 import "./nav.css"
 import NavItem from "./NavItem/NavItem";
 import React from 'react'
+
+import home from "../../assets/navBar/home.svg"
+import about from "../../assets/navBar/about.svg"
+import product from "../../assets/navBar/products.svg"
+import sign from "../../assets/navBar/input.svg"
 function Nav() {
     
 
@@ -11,10 +16,10 @@ function Nav() {
             <Logo/>
             
             <ul>
-                <NavItem url="/">Home</NavItem>
-                <NavItem url="/about">About</NavItem>
-                <NavItem url="/products">Products</NavItem>
-                <NavItem url="/signIn">Sign in/up</NavItem>
+                <NavItem url="/"><img src={home} alt='/'/>Home</NavItem>
+                <NavItem url="/about"><img src={about} alt='/'/>About</NavItem>
+                <NavItem url="/products"><img src={product} alt='/'/>Products</NavItem>
+                <NavItem url="/signIn"><img src={sign} alt='/'/>Sign in/up</NavItem>
             </ul>
         </nav>
      );

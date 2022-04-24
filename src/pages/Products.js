@@ -86,7 +86,7 @@ function Products() {
     ]   
     return ( 
         <main className="d-flex flex-column">
-            <Header fone='/img_coverImage/3.jpg' tColor='darkred'/>
+            <Header fone='/img_coverImage/3.jpg' tColor='orange'/>
             <div className="mainPage">
                 <div style={styleMain}>
                     {

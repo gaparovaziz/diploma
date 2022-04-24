@@ -1,7 +1,7 @@
 import "./Sign.css"
 function SignIn() {
     return ( 
-        <main className="mainPage d-flex justify-around">
+        <main className="mainPage d-flex justify-around signPage">
             <head>
                 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
             </head>
@@ -34,6 +34,7 @@ function SignIn() {
                 <button className="btn-register">REGISTER</button>
                 <p className="footer">Welcome to our shop...</p>
             </div>
+            <div className="overlay" style={{height: '89.4%'}}></div>
         </main>
      );
 }

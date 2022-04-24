@@ -1,5 +1,5 @@
 .Footer {
-    background-color: rgb(26, 51, 41);               
+    background-color: rgb(131, 93, 43);               
     /* padding: 1rem; */
     text-align: center;
     color: white;
@@ -10,7 +10,7 @@
     text-decoration: underline;
 }
 .Footer a {
-    color:gray
+    color:rgb(192, 187, 187)
 }
 .Footer div {
     display: flex;
