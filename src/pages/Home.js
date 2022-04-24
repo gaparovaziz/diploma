@@ -1,11 +1,8 @@
 import Header from "../components/header/header";
 import one from "../assets/homePage/1.jpg"
 import two from "../assets/homePage/2.jpg"
-import three from "../assets/homePage/3.jpg"
 import four from "../assets/homePage/4.jpg"
 import five from "../assets/homePage/5.jpg"
-import six from "../assets/homePage/6.jpg"
-import seven from "../assets/homePage/7.jpg"
 
 function Home() {
     return ( 
