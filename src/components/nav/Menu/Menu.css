@@ -1,0 +1,15 @@
+button {
+    padding: 1rem;
+    background: transparent;
+    display: none;
+    border: none;
+}
+button img {
+    width: 40px;
+}
+
+@media (max-width: 675px) {
+    button {
+        display: block;
+    }
+}

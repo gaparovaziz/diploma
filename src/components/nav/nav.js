@@ -7,6 +7,7 @@ import home from "../../assets/navBar/home.svg"
 import about from "../../assets/navBar/about.svg"
 import product from "../../assets/navBar/products.svg"
 import sign from "../../assets/navBar/input.svg"
+import Menu from "./Menu/Menu";
 function Nav() {
     
 
@@ -21,6 +22,8 @@ function Nav() {
                 <NavItem url="/products"><img src={product} alt='/'/>Products</NavItem>
                 <NavItem url="/signIn"><img src={sign} alt='/'/>Sign in/up</NavItem>
             </ul>
+
+            <Menu/>
         </nav>
      );
 }
