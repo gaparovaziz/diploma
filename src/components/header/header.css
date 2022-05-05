@@ -9,10 +9,12 @@
     font-size: 3rem;
     font-family: 'Rubik Microbe', cursive;
     background-position: center;
+    font-family: 'Water Brush', cursive;
 
 }
 .Header h1 {
     margin: 0;
+    font-family: 'Tapestry', cursive;
 }
 .text-center {
     position: relative;

@@ -35,60 +35,60 @@ function About() {
                 <Nav/>
                 <Header fone='/img_coverImage/2.jpg' tColor='darkorange'/>
             </div>
-            <div className="aboutPage d-flex">
+            <div className="aboutPage d-flex mainPage">
                 <main className="leftSide">
-                <h1>Men's accessories that will always be in fashion</h1>
+                <h1><span style={{color: 'darkorange'}}>|</span> Men's accessories that will always be in fashion</h1>
 
                 <p>Accessories: no worthy outfit is complete without them. It's like béarnaise and steak, butter and bread, olive and martini. Well, you get the idea. But sometimes it can be difficult to understand how successful the purchase of any of the accessories can be. Fortunately, history, based on trial and error, brought out those things in a man's wardrobe that will never be redundant and will not lose their relevance. If an accessory looked good 50 years ago, it still looks good now. That most likely, it will be popular in 50 years. We present you men's accessories that will never go out of style.</p>
 
-                <h2>Classic sunglasses</h2>
+                <h2><span style={{color: 'tomato'}}>|</span> Classic sunglasses</h2>
                 <p>Few things are as popular among men's accessories as sunglasses. Practical, stylish and covering dark circles around the eyes when needed. The glasses conjure images of golden age movie stars like Steve McQueen.</p>
 
                 <div className="text-center"><img src={sunGlasses} alt='/'/></div>
 
                 <p>This suggests that the most popular styles have changed little in recent decades. Aviators, Wayfarers and Clubmaster are time-tested goggles that suit different face shapes. Seeing as a pair of decent sunglasses will last a lifetime, don't be afraid to invest in buying them. If you manage to extend their lifespan, keep a classic and understated style with black or tortoiseshell frames and brown, black or dark green lenses. Be sure to choose glasses according to the shape of your face.</p>
 
-                <h2>Leather wallet</h2>
+                <h2><span style={{color: 'darkorange'}}>|</span> Leather wallet</h2>
                 <p>With a leather wallet, paying for a glass of beer is as easy as with a smartwatch. But you will make a completely different impression. It seems that the wallet in hand remains a stylish accessory even today.</p>
 
                 <div className="text-center"><img src={LeatherWalley} alt='/'/></div>
 
                 <p>Practical, contoured and perfected over time. A leather wallet is a partner that will take care of your business and manage your personal finances. It is for this reason that many men prefer their wallet to have the initials of the owner. Which speaks of intentions to keep it for life, even if the contents are not enough until the end of the month.</p>
 
-                <h2>Stainless steel watch</h2>
+                <h2><span style={{color: 'yellow'}}>|</span>  Steel watch</h2>
                 <p>With understated style, stainless steel watches are capable of lasting more than one life, but several when passed down from generation to generation. The material, which has its roots in the manufacture of weapons, is as attractive as it is durable. These watches are also versatile, combine them with a suit and tie or T-shirt and chinos and they will be appropriate everywhere.</p>
 
                 <div className="text-center"><img src={whatches} alt='/'/></div>
 
                 <p>Even half a century later, when a dial and a calendar are built into contact lenses, truly stylish men will look at their wrist when someone asks for the time.</p>
 
-                <h2>Leather belt</h2>
+                <h2><span style={{color: 'darkorange'}}>|</span> Leather belt</h2>
                 <p>For fashionable men, the classic belt is much more than just a trouser hold. It is also a stylish accessory that can enhance the elegance of your look. Thus, choosing the right belt requires you to give back when buying. From color matching to texture selection, choosing which belt to wear requires thought. After all, a good belt does more than just hold the pants, it is part of the appearance of a man. Whether it's a much-needed separation for tall men between the upper and lower torso, or a subtle compliment to a leather derby. A decent cowhide belt will be popular for a long time, while other accessories will fall out of fashion.</p>
 
                 <div className="text-center"><img src={LeatherBelt} alt='/'/></div>
 
-                <h2>White pocket square</h2>
+                <h2><span style={{color: 'orange'}}>|</span> White pocket square</h2>
                 <p>Any formal outfit needs to be accessorized, and what could be better than a white pocket square? Accessory used with costumes since around the 1920s. From Frank Sinatra and Humphrey Bogart to Tom Ford and Daniel Craig, the white pocket square is an accessory for all ages and ages.</p>
 
                 <div className="text-center"><img src={whitePocket} alt='/'/></div>
 
 
-                <h2>Rings</h2>
+                <h2><span style={{color: 'darkorange'}}>|</span> Rings</h2>
                 <p>Not all men are confident enough to wear rings. Many people think that the only ring a man should wear is an engagement ring. Fortunately, things have changed in recent times and men have begun to realize the potential of rings as fashion accessories. Men's fashion rings will become more common in 2019. The more men start wearing them, the more others will have the courage to follow this trend.</p>
 
                 <div className="text-center"><img src={rign} alt='/'/></div>
 
                 <p>There are a lot of men's rings these days. This allows men to easily express their style through jewelry. Whether you prefer thin or chunky rings, there are cool options for all styles. To make your jewelry game even more interesting, check out our men's ring guide.</p>
 
-                <h2>Finally</h2>
+                <h2><span style={{color: 'gray'}}>|</span> Finally</h2>
                 <p>Last but not least, you need to make sure that all of your accessories are neat and in good condition. Now that you have found out which accessories will not go out of fashion soon. You just have to find out if all the accessories you have need to be updated. Are the bags you use in good shape or do you need new ones? Do you have classic belts that you can wear with jeans and suits? And finally, is your wallet clean and meets your needs (enough space for all cards/cash)? Think about all the accessories you use on a daily or monthly basis and replace anything that is broken or horribly worn.</p>
             </main>
 
             <div className="rightSide">
                 <div className="stick">
                     <div className="d-flex">
-                        <input type='text' placeholder='search in google' className="inputGoogle"/>
-                        <button className="search"><img src={search} className='search' alt='/'/></button>
+                        <input type='text' placeholder='Search in google...' className="inputGoogle"/>
+                        <button className="search"><img src={search} className='search' style={{width: '35px'}} alt='/'/></button>
                     </div><br/>
                     <p>WE ARE IN SOCIAL NETWORKS:</p>
                     <div className="socialNet">

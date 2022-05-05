@@ -2,14 +2,19 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    margin: .5rem;
+    margin: .3rem;
     border: 1px solid gray;
-    border-radius: 1rem;
+    border-radius: .5rem;
     box-shadow: 0 0 5px rgb(88, 87, 87);
+
+    color:rgb(53, 53, 53);
+    
 }
 
 .leftSide {
     width: 65%;
+    font-size: 1.2rem;
+    color: black
 }
 .leftSide img {
     margin: 0 auto;
@@ -20,6 +25,7 @@
     width: 32%;
     border-left: 1px dashed gray;
     padding-left: 1rem;
+    font-size:1rem;
 }
 .rightSide .stick {
     position: sticky;
@@ -28,17 +34,22 @@
 .rightSide .inputGoogle {
     padding: 5px;
     border-color: gray;
+    margin: 0;
+}
+.rightSide .inputGoogle::-webkit-input-placeholder {
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 .rightSide button {
-    padding: 0;
+    padding: 4px;
+    border-radius: .4rem;
+    border: 1px solid black;
+    box-shadow: 0 0 5px gray;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.rightSide .search {
-    width: 1.6rem;
-    background-color: rgba(111, 218, 173, 0.884);
-    /* padding: .2rem; */
+    width:auto;
+    background-color: gray;
 }
 .rightSide .socialNet {
     display: flex;

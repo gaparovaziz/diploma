@@ -16,7 +16,7 @@ function Home() {
                 <Header fone='/img_coverimage/1.webp' tColor='rgb(0, 255, 255)'/>
             </div>
             <div className="mainPage homePage">
-                <h1>What Is Accessorizing?</h1>
+                <h1><span style={{color: 'aqua'}}>|</span> What Is Accessorizing?</h1>
                 <p>Accessorizing is a way to spice up your outfits by incorporating smaller pieces, like jewelry and shoes, into your look. Fashion accessories are pieces that, although they can serve practical functions, are chosen to complement the rest of an outfit—the finishing touches. Accessorizing allows you to add new energy to the old standbys in your capsule wardrobe.</p>
 
                 <img src={one} alt="/"/>
@@ -34,7 +34,7 @@ function Home() {
                 <br/><br/>
                 <img src={two} alt="/"/>
 
-                <h1>6 Types of Fashion Accessories</h1>
+                <h1><span style={{color: 'aqua'}}>|</span>6 Types of Fashion Accessories</h1>
                 <h3>Accessories fall into a few basic categories.</h3>
 
                 <p>Footwear: Unlike other accessories, you’ll most likely need to wear shoes every day. Although it’s important to have a few neutral footwear options in your capsule collection (such as a white sneaker, nude heel, black flat, and black or brown boots), statement footwear can elevate your look. Look for shoes that are fun yet comfortable—or else you’ll never wear them.</p>
@@ -56,9 +56,9 @@ function Home() {
                 <p>Use accessories to transform an outfit. Accessories are an easy way to take an outfit from the office to dinner with friends. A classic little black dress looks work-appropriate when paired with a blazer and flats. Ditch the blazer, swap the flats for stilettos, and add a pair of statement earrings or a cocktail ring, and you're ready for a night out. Have a few go-to accessories in mind for those moments when you’re not able to do a full outfit change.</p>
                 <p>Your accessories don’t need to match. Matching accessories can read more conservative than fashion-forward. If you’re not sure which colors go together, start by adding one colorful accessory to a base of neutrals. Then, use to use the color wheel to get new ideas for bold color combinations.</p>
 
-                <br/>
+                <br/><br/>
 
-                <h2>Want to Learn More About Unleashing Your Inner Fashionista?</h2>
+                <h2><span style={{color: 'aqua'}}>|</span>Want to Learn More About Unleashing Your Inner Fashionista?</h2>
                 <p>Get a MasterClass Annual Membership and let Tan France be your very own style spirit guide. Queer Eye’s fashion guru spills everything he knows about building a capsule collection, finding a signature look, understanding proportions, and more (including why it’s important to wear underwear to bed)—all in a soothing British accent, no less.</p>
                 
                 <div className="d-flex">

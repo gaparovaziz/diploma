@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(90, 88, 88);
+    background-color: rgb(110, 109, 109);
     color: azure;
     padding: .1rem 1rem;
     font-size: 30px;  
     font-family: 'Times New Roman', Times, serif;
-    box-shadow: 0 0 5px lightblue;
+    box-shadow: 0 0 5px rgb(229, 232, 233);
 
     z-index: 3;
     
