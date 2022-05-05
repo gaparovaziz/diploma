@@ -13,7 +13,7 @@ function Card(props) {
                 </p>
                 <p className="d-flex justify-between align-center ">
                     <div><b>PRICE:</b></div>
-                    <div><span className="priceNum">{props.price}</span><img src={price} className="priceImage"/></div>
+                    <div><span className="priceNum">{props.price}</span><img src={price} className="priceImage" alt="/"/></div>
                 </p>
                 <div className="btns d-flex justify-around mb-10">
                     <button className="buy">BUY</button>
