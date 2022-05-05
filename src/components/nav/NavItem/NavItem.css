@@ -14,11 +14,12 @@
     margin: 0 auto;
   }
   .NavItem a.active {
-    background-image: linear-gradient(to top right, rgba(131, 93, 43, 0.795),rgba(138, 111, 77, 0.795),rgba(131, 93, 43, 0.795));
-    box-shadow: 0 0 5px rgb(97, 69, 33);
+    background-image: linear-gradient(to top right, rgb(87, 85, 85), rgb(116, 114, 114), rgb(90, 89, 89));
+    box-shadow: 0 0 5px rgb(146, 146, 146)  ;
+    border-radius: 5px;
 
   }
   .NavItem a:hover {
     background-color: rgba(255, 255, 255, .03);
-    box-shadow: 0 0 1.5px darkorange;
+    box-shadow: 0 0 1.5px darkgray;
   }

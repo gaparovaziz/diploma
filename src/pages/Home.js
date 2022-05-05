@@ -4,10 +4,17 @@ import two from "../assets/homePage/2.jpg"
 import four from "../assets/homePage/4.jpg"
 import five from "../assets/homePage/5.jpg"
 
+import React from 'react'
+import Nav from "../components/nav/nav";
+
 function Home() {
+    
     return ( 
         <main className="d-flex flex-column">
-            <Header fone='/img_coverimage/1.webp' tColor='rgb(0, 255, 255)'/>
+            <div>
+                <Nav/>
+                <Header fone='/img_coverimage/1.webp' tColor='rgb(0, 255, 255)'/>
+            </div>
             <div className="mainPage homePage">
                 <h1>What Is Accessorizing?</h1>
                 <p>Accessorizing is a way to spice up your outfits by incorporating smaller pieces, like jewelry and shoes, into your look. Fashion accessories are pieces that, although they can serve practical functions, are chosen to complement the rest of an outfit—the finishing touches. Accessorizing allows you to add new energy to the old standbys in your capsule wardrobe.</p>

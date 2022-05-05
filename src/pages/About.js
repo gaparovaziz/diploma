@@ -22,13 +22,19 @@ import watch from "../assets/menuSection/watch.jpg"
 import hair from "../assets/menuSection/hairStyle.jpg"
 import body from "../assets/menuSection/healthy.jpg"
 
+import React from 'react'
+
 
 import "./About.css"
 import Header from "../components/header/header"
+import Nav from "../components/nav/nav"
 function About() {
     return ( 
         <div className="d-flex flex-column">
-            <Header fone='/img_coverImage/2.jpg' tColor='darkorange'/>
+            <div>
+                <Nav/>
+                <Header fone='/img_coverImage/2.jpg' tColor='darkorange'/>
+            </div>
             <div className="aboutPage d-flex">
                 <main className="leftSide">
                 <h1>Men's accessories that will always be in fashion</h1>

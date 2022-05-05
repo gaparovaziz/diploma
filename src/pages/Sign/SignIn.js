@@ -1,7 +1,13 @@
 import "./Sign.css"
+import React from 'react'
+import Nav from "../../components/nav/nav";
+
 function SignIn() {
+    
     return ( 
-        <main className="mainPage d-flex justify-around signPage">
+        <>
+            <Nav/>
+            <main className="mainPage d-flex justify-around signPage">
             <head>
                 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
             </head>
@@ -36,6 +42,7 @@ function SignIn() {
             </div>
             <div className="overlay" style={{height: '89.4%'}}></div>
         </main>
+        </>
      );
 }
 

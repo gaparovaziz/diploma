@@ -1,6 +1,9 @@
 import Header from "../components/header/header";
 import Card from "./card/Card";
 
+import React from 'react'
+import Nav from "../components/nav/nav";
+
 function Products() {
     const styleMain = {
         display: 'flex',
@@ -84,9 +87,13 @@ function Products() {
             price: '$10'
         },
     ]   
+
     return ( 
         <main className="d-flex flex-column">
-            <Header fone='/img_coverImage/3.jpg' tColor='orange'/>
+            <div>
+                <Nav/>
+              ` <Header fone='/img_coverImage/3.jpg' tColor='orange'/>
+            </div>
             <div className="mainPage">
                 <div style={styleMain}>
                     {
