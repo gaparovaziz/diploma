@@ -31,3 +31,7 @@ code {
 .homePage p {
   margin: 1rem 0;
 }
+
+.productPage {
+  background-image: linear-gradient(to top right, rgb(121, 7, 7), rgb(151, 90, 32),rgb(155, 146, 25),rgb(105, 150, 63),rgb(43, 156, 71),rgb(13, 175, 154),rgb(43, 113, 170),rgb(133, 131, 161));
+}

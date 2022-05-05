@@ -11,18 +11,49 @@ img {
     width: 250px;
     border: 1px solid gray;
     border-radius: 15px;
-    box-shadow: 0 0 5px gray;
+    box-shadow: 0 0 5px aqua;
+}
+.card:hover {
+    width: 260px;
+    transition: .2s;
+    box-shadow: 0 0 10px black;
 }
 .card p, h4, .btns {
-    padding: 7px;
+    padding: 0 7px;
+}
+.card p {
+    font-size: 1rem;
 }
 .btns button {
-    padding: 7px 20px;
+    display: block;
+    padding: 7px 2rem;
     font-size: 1.2rem;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 8px;
     box-shadow: 0 0 3px rgb(127, 134, 136);
 }
+.btns button:hover {
+    background-color: rgba(128, 128, 128, 0.212);
+    padding: 7px 2.1rem;
+    z-index: 1;
+    transition: .1s;
+    font-size: 1.3rem;
+}
+
+.priceNum {
+    position: relative;
+    top: -2rem;
+    left: 3.9rem;
+    font-size: 1.8rem;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.priceImage {
+    border-radius: 100%;
+    width: 5rem;
+}
+
 .btns .buy {
     background-color: beige;
 }
