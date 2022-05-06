@@ -67,7 +67,7 @@ function Footer() {
                         <img src={d3icon} alt='/' style={{width: '30px'}}/>
                         <h2 className="ml-10">Links</h2>
                     </div>
-                    <p ><span>BLOG</span><span><img src={arrowRight} alt="/"/></span></p>
+                    <p><span>BLOG</span><span><img src={arrowRight} alt="/"/></span></p>
                     <p><span>PORTFOLIO</span><span><img src={arrowRight} alt="/"/></span></p>
                     <p><span>HOME</span><span><img src={arrowRight} alt="/"/></span></p>
                     <p><span>ABOUT</span><span><img src={arrowRight} alt="/"/></span></p>
@@ -96,7 +96,7 @@ function Footer() {
             </div>
             <hr/>
             <div className="underMainFooter d-flex justify-between p-20">
-                <div>@2022 My Footer. All Right reserved.</div>
+                <div><a href="/" style={{color: 'lightgray'}}>@2022 My Footer. All Right reserved.</a></div>
                 <div>Home  |  About  |  Blog  |  Portfolio  |  Contact</div>
             </div>
 
