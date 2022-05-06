@@ -1,31 +1,53 @@
-.Footer {
-    background-color: rgb(90, 88, 88);             
-    /* padding: 1rem; */
-    text-align: center;
-    color: white;
+footer {
+    background-color: rgb(90, 88, 88);  
+    color: rgb(196, 196, 196);
+}
+
+.w25p {
+    width: 22%;
+}
+.mainFooter {
+    gap: 2%;
+}
+.block-3 p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .7rem 2.5rem;
-    text-decoration: underline;
 }
-.Footer a {
-    color:rgb(192, 187, 187)
+.socialNet {
+    gap: 6%;
+    margin: 0 auto;
 }
-.Footer div {
+.socialNet img {
+    width: 15%;
+    border-radius: 100%;
+}
+
+.block-2 img {
+    width: 6%
+}
+.block-2 p {
     display: flex;
     align-items: center;
-    gap: 25px;
-    color:rgba(196, 240, 223, 0.651)
+    gap: 2%;
 }
-.Footer img {
-    width: 30px
+
+.block-4 .images img {
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 8%;
+    margin-right: 1%;
 }
-.Footer .tele {
-    width: 24px;
-    height: 24px;
+
+.block-4 .images .img-1 {
+    width: 31%;
 }
-.Footer .wk {
-    width: 25px;
-    height: 25px;
+.block-4 .images .img-3 {
+    width: 14%;
+}
+.block-4 .images .img-4 {
+    width: 32%;
+}
+.block-4 .images .img-5 {
+    width: 32%;
 }
